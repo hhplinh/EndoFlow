@@ -1,0 +1,41 @@
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.cpython*
+
+# Python distribution and packaging files
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Output & Cache
+output/
+outputs/
+output_old/
+.cache/
+*.cache
+
+# PyTorch3D
+*.pth
+*.pt
+*.ckpt
+checkpoints/
+
+# Environment
+.env
+
+weights/
+tmp/
+tmp_old/

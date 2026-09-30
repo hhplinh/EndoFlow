@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "FoundationStereo"
+version = "0.1.0"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["FoundationStereo*"]
+
+# Package structure
+# package/
+# ├── package/
+# │   ├── module1.py
+# │   └── module2.py
+# |   └── subpackage/
+# │       └── module3.py
+# └── pyproject.toml

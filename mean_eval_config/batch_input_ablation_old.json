@@ -1,0 +1,32 @@
+{
+    "method": [
+        "EndoFlow"
+    ],
+    "work_dir": "/network-volume/nhphuc",
+    "data": [
+        {"name": "cutting", "path": "mean_eval_endonerf/cutting", "iter_key": "ours_3000"},
+        {"name": "pulling", "path": "mean_eval_endonerf/pulling", "iter_key": "ours_3000"},
+        {"name": "p2_1_1_247_s4", "path": "mean_eval_stereomis/p2_1_1_247_s4", "iter_key": "ours_6000"},
+        {"name": "p2_6_5000_200_s4", "path": "mean_eval_stereomis/p2_6_5000_200_s4", "iter_key": "ours_6000"},
+        {"name": "p3_9100_368_s4", "path": "mean_eval_stereomis/p3_9100_368_s4", "iter_key": "ours_6000"},
+        {"name": "p3_11000_401_s4", "path": "mean_eval_stereomis/p3_11000_401_s4", "iter_key": "ours_6000"}
+    ],
+    "config": [
+        "alpha3d_0.0",
+        "alpha3d_0.1",
+        "alpha3d_0.2",
+        "alpha3d_0.25",
+        "alpha3d_0.3",
+        "alpha3d_0.4",
+        "alpha3d_0.5",
+        "flowloss_0.0",
+        "flowloss_0.0001",
+        "flowloss_0.0005",
+        "flowloss_0.001",
+        "flowloss_0.005",
+        "flowloss_0.01",
+        "flowloss_0.1",
+        "flowloss_1.0"
+    ],
+    "field": ["PSNR", "SSIM", "LPIPS", "Gaussians", "PeakGPUMemoryMB", "TrainingTimeSeconds"]
+}

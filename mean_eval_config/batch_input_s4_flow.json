@@ -1,0 +1,18 @@
+{
+    "method": [
+        "EndoFlow"
+    ],
+    "work_dir": "/network-volume/nhphuc",
+    "data": [
+        {"name": "cutting", "path": "mean_eval_endonerf/cutting", "iter_key": "ours_3000"},
+        {"name": "pulling", "path": "mean_eval_endonerf/pulling", "iter_key": "ours_3000"},
+        {"name": "p2_1_1_247_s4", "path": "mean_eval_stereomis/p2_1_1_247_s4", "iter_key": "ours_6000"},
+        {"name": "p2_6_5000_200_s4", "path": "mean_eval_stereomis/p2_6_5000_200_s4", "iter_key": "ours_6000"},
+        {"name": "p3_9100_368_s4", "path": "mean_eval_stereomis/p3_9100_368_s4", "iter_key": "ours_6000"},
+        {"name": "p3_11000_401_s4", "path": "mean_eval_stereomis/p3_11000_401_s4", "iter_key": "ours_6000"}
+    ],
+    "config": [
+        "flow"
+    ],
+    "field": ["PSNR", "SSIM", "LPIPS", "FPS", "Gaussians", "PeakGPUMemoryMB", "TrainingTimeSeconds"]
+}

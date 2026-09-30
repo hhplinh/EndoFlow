@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "WAFT"
+version = "0.1.0"
+
+[tool.setuptools]
+# Tell setuptools to look for packages natively in the current root directory
+packages = { find = { where = ["."] } }
